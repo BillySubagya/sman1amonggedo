@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SMAN 1 Amonggedo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="bg-[#f4f8fc] text-slate-900">
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header
+        class="
+            fixed
+            top-0
+            inset-x-0
+            z-50
+            bg-[#10182b]/95
+            backdrop-blur
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-5
+                lg:px-10
+                h-16
+                flex
+                items-center
+                justify-between
+            "
+        >
+
+            <!-- LOGO -->
+            <a
+                href="index.html"
+                class="
+                    flex
+                    items-center
+                    gap-2
+                    min-w-0
+                "
+            >
+
+                <div class="w-10 h-10 flex-shrink-0">
+    <img
+        src="img/logo.png"
+        alt="Logo SMAN 1 Amonggedo"
+        class="w-full h-full object-contain"
+    >
+</div>
+
+
+                <div class="min-w-0">
+
+                    <b
+                        class="
+                            block
+                            text-white
+                            text-sm
+                            whitespace-nowrap
+                        "
+                    >
+                        SMAN 1 AMONGGEDO
+                    </b>
+
+
+                    <span
+                        class="
+                            block
+                            text-cyan-200
+                            text-[9px]
+                            whitespace-nowrap
+                        "
+                    >
+                        Website Resmi Sekolah
+                    </span>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- NAVIGASI DESKTOP -->
+            <nav
+                class="
+                    hidden
+                    md:flex
+                    items-center
+                    gap-6
+                "
+            >
+
+                <a
+                    href="index.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Beranda
+                </a>
+
+
+                <a
+                    href="profil.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Profil
+                </a>
+
+
+                <a
+                    href="berita.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Berita
+                </a>
+
+
+                <a
+                    href="galeri.html"
+                    class="
+                        text-xs
+                        text-cyan-300
+                        hover:text-cyan-300
+                    "
+                >
+                    Galeri
+                </a>
+
+
+                <a
+                    href="direktori.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Direktori
+                </a>
+
+
+                <a
+                    href="ekstrakurikuler.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Ekskul
+                </a>
+
+
+                <a
+                    href="https://spmb.sultraprov.go.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    PPDB
+                </a>
+
+
+                <a
+                    href="kontak.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Kontak
+                </a>
+
+            </nav>
+
+
+
+            <!-- TOMBOL MOBILE -->
+            <button
+                type="button"
+                data-menu
+                class="
+                    md:hidden
+                    w-10
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    text-white
+                    text-2xl
+                    flex-shrink-0
+                "
+                aria-label="Buka menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+
+        <!-- MENU MOBILE -->
+        <div
+            data-mobile
+            class="
+                mobile-menu
+                md:hidden
+                bg-[#10182b]
+                px-5
+                pb-4
+            "
+        >
+
+            <a
+                href="index.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Beranda
+            </a>
+
+
+            <a
+                href="profil.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Profil
+            </a>
+
+
+            <a
+                href="berita.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Berita
+            </a>
+
+
+            <a
+                href="galeri.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-cyan-300
+                    rounded-xl
+                    bg-white/5
+                "
+            >
+                Galeri
+            </a>
+
+
+            <a
+                href="direktori.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Direktori
+            </a>
+
+
+            <a
+                href="ekstrakurikuler.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Ekskul
+            </a>
+
+
+            <a
+                href="https://spmb.sultraprov.go.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                PPDB
+            </a>
+
+
+            <a
+                href="kontak.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Kontak
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section
+        class="
+            relative
+            h-[300px]
+            md:h-[340px]
+            flex
+            items-center
+            justify-center
+            text-center
+            overflow-hidden
+            bg-cover
+            bg-center
+        "
+        style="
+            background:
+                linear-gradient(
+                    rgba(11, 42, 87, 0.78),
+                    rgba(13, 55, 110, 0.78)
+                ),
+                url('img/foto-sekolah.jpg');
+
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        "
+    >
+
+        <div
+            class="
+                relative
+                z-10
+                px-5
+                pt-14
+            "
+        >
+
+            <p
+                class="
+                    uppercase
+                    tracking-[0.35em]
+                    text-[9px]
+                    md:text-xs
+                    text-cyan-300
+                    font-bold
+                "
+            >
+                DOKUMENTASI KEGIATAN
+            </p>
+
+
+            <h1
+                class="
+                    text-4xl
+                    md:text-5xl
+                    lg:text-6xl
+                    font-black
+                    text-white
+                    mt-4
+                    leading-none
+                "
+            >
+                Galeri Sekolah
+            </h1>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         KONTEN GALERI
+         ===================================================== -->
+
+    <main
+        class="
+            max-w-6xl
+            mx-auto
+            px-5
+            md:px-8
+            lg:px-10
+            py-8
+            md:py-10
+        "
+    >
+
+        <section
+            class="
+                bg-white
+                rounded-2xl
+                shadow-sm
+                border
+                border-slate-100
+                p-4
+                md:p-6
+            "
+        >
+
+            <!-- JUDUL -->
+            <h2
+                class="
+                    text-lg
+                    md:text-xl
+                    font-black
+                    text-[#263f83]
+                "
+            >
+                Galeri Kegiatan Sekolah
+            </h2>
+
+
+            <div
+                class="
+                    h-[2px]
+                    w-full
+                    bg-cyan-400
+                    mt-2
+                    mb-4
+                "
+            ></div>
+
+
+
+            <!-- ALBUM GALERI -->
+            <div
+                class="
+                    grid
+                    grid-cols-1
+                    sm:grid-cols-2
+                    md:grid-cols-3
+                    lg:grid-cols-4
+                    gap-3
+                "
+            >
+
+                <!-- ALBUM MPLS -->
+                <a
+                    href="detail-galeri.html"
+                    class="
+                        gallery-card
+                        block
+                        bg-white
+                        border
+                        border-slate-200
+                        rounded-xl
+                        overflow-hidden
+                    "
+                >
+
+                    <div
+                        class="
+                            h-44
+                            md:h-48
+                            overflow-hidden
+                        "
+                    >
+
+                        <img
+                            src="img/mpls.png"
+                            alt="MPLS 2026 SMAN 1 Amonggedo"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <div class="p-3">
+
+                        <h3
+                            class="
+                                text-xs
+                                md:text-sm
+                                font-bold
+                                text-slate-800
+                            "
+                        >
+                            MPLS 2026 SMAN 1 Amonggedo
+                        </h3>
+
+
+                        <p
+                            class="
+                                text-[10px]
+                                text-slate-500
+                                mt-1
+                            "
+                        >
+                            Foto kegiatan MPLS SMAN 1 Amonggedo
+                        </p>
+
+
+                        <div
+                            class="
+                                flex
+                                items-center
+                                justify-between
+                                gap-2
+                                mt-4
+                            "
+                        >
+
+                            <span
+                                class="
+                                    text-[9px]
+                                    text-slate-500
+                                "
+                            >
+                                <i class="fa-regular fa-images"></i>
+                                5 Foto
+                            </span>
+
+
+                            <span
+                                class="
+                                    text-[9px]
+                                    text-blue-600
+                                    font-semibold
+                                "
+                            >
+                                Lihat Album
+                                <i class="fa-solid fa-arrow-right ml-1"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer
+        class="
+            bg-[#081633]
+            text-white
+            mt-10
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-6
+                lg:px-10
+                py-10
+                grid
+                grid-cols-1
+                md:grid-cols-3
+                gap-8
+            "
+        >
+
+            <!-- SEKOLAH -->
+            <div>
+
+                <div
+                    class="
+                        flex
+                        items-center
+                        gap-2
+                    "
+                >
+
+                    <div
+                        class="
+                            w-8
+                            h-8
+                            rounded-full
+                            overflow-hidden
+                            bg-white
+                            flex-shrink-0
+                        "
+                    >
+
+                        <img
+                            src="img/logo.png"
+                            alt="Logo SMAN 1 Amonggedo"
+                            class="
+                                w-full
+                                h-full
+                                object-contain
+                            "
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <b class="text-xs">
+                            SMAN 1 AMONGGEDO
+                        </b>
+
+
+                        <p
+                            class="
+                                text-[7px]
+                                text-cyan-200
+                            "
+                        >
+                            Website Resmi Sekolah
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <p
+                    class="
+                        text-[10px]
+                        text-slate-300
+                        leading-5
+                        mt-4
+                    "
+                >
+                    Website resmi sekolah sebagai media
+                    informasi, publikasi kegiatan, berita,
+                    galeri, dan layanan informasi sekolah.
+                </p>
+
+            </div>
+
+
+
+            <!-- HUBUNGI KAMI -->
+            <div>
+
+                <b class="text-xs">
+                    Hubungi Kami
+                </b>
+
+
+                <p
+                    class="
+                        text-[10px]
+                        text-slate-300
+                        leading-5
+                        mt-3
+                    "
+                >
+
+                    Jalan Poros Amonggedo,
+                    Konawe, Sulawesi Tenggara
+
+                    <br>
+
+                    0852 2110 2515
+
+                    <br>
+
+                    sman1amonggedo@gmail.com
+
+                </p>
+
+            </div>
+
+
+
+            <!-- LOKASI -->
+            <div>
+
+                <b class="text-xs">
+                    Lokasi Sekolah
+                </b>
+
+
+                <div
+                    class="
+                        h-28
+                        rounded-xl
+                        overflow-hidden
+                        mt-3
+                    "
+                >
+
+                    <iframe
+                        title="Peta lokasi SMAN 1 Amonggedo"
+                        src="https://www.google.com/maps?q=SMAN%201%20Amonggedo%20Konawe&output=embed"
+                        class="
+                            w-full
+                            h-full
+                            border-0
+                        "
+                        loading="lazy"
+                    >
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+        <div
+            class="
+                border-t
+                border-white/10
+                py-4
+                text-center
+                text-[8px]
+                text-slate-500
+                px-4
+            "
+        >
+
+            ©
+            <span data-year></span>
+            SMAN 1 AMONGGEDO
+            • All Rights Reserved
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

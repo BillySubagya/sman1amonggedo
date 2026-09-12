@@ -1,0 +1,1841 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SMAN 1 Amonggedo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="bg-[#edf5ff] text-slate-900">
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header
+        class="
+            fixed
+            top-0
+            inset-x-0
+            z-50
+            bg-[#07152f]/95
+            backdrop-blur
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-5
+                lg:px-10
+                h-16
+                flex
+                items-center
+                justify-between
+            "
+        >
+
+            <!-- LOGO -->
+            <a
+                href="index.html"
+                class="
+                    flex
+                    items-center
+                    gap-2
+                    min-w-0
+                "
+            >
+
+               <div class="w-10 h-10 flex-shrink-0">
+    <img
+        src="img/logo.png"
+        alt="Logo SMAN 1 Amonggedo"
+        class="w-full h-full object-contain"
+    >
+</div>
+
+
+                <div class="min-w-0">
+
+                    <b
+                        class="
+                            text-white
+                            text-sm
+                            block
+                            whitespace-nowrap
+                        "
+                    >
+                        SMAN 1 AMONGGEDO
+                    </b>
+
+
+                    <div
+                        class="
+                            text-cyan-200
+                            text-[9px]
+                            whitespace-nowrap
+                        "
+                    >
+                        Website Resmi Sekolah
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <!-- NAVIGASI DESKTOP -->
+            <nav
+                class="
+                    hidden
+                    md:flex
+                    gap-6
+                    items-center
+                "
+            >
+
+                <a
+                    href="index.html"
+                    class="
+                        text-xs
+                        text-cyan-300
+                        hover:text-cyan-300
+                    "
+                >
+                    Beranda
+                </a>
+
+
+                <a
+                    href="profil.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Profil
+                </a>
+
+
+                <a
+                    href="berita.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Berita
+                </a>
+
+
+                <a
+                    href="galeri.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Galeri
+                </a>
+
+
+                <a
+                    href="direktori.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Direktori
+                </a>
+
+
+                <a
+                    href="ekstrakurikuler.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Ekskul
+                </a>
+
+
+                <a
+                    href="https://spmb.sultraprov.go.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    PPDB
+                </a>
+
+
+                <a
+                    href="kontak.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Kontak
+                </a>
+
+            </nav>
+
+
+            <!-- TOMBOL MOBILE -->
+            <button
+                type="button"
+                data-menu
+                class="
+                    md:hidden
+                    text-white
+                    text-2xl
+                    w-10
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    flex-shrink-0
+                "
+                aria-label="Buka menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MENU MOBILE -->
+        <div
+            data-mobile
+            class="
+                mobile-menu
+                md:hidden
+                bg-[#07152f]
+                px-5
+                pb-4
+            "
+        >
+
+            <a
+                href="index.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Beranda
+            </a>
+
+
+            <a
+                href="profil.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Profil
+            </a>
+
+
+            <a
+                href="berita.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Berita
+            </a>
+
+
+            <a
+                href="galeri.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Galeri
+            </a>
+
+
+            <a
+                href="direktori.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Direktori
+            </a>
+
+
+            <a
+                href="ekstrakurikuler.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Ekskul
+            </a>
+
+
+            <a
+                href="https://spmb.sultraprov.go.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                PPDB
+            </a>
+
+
+            <a
+                href="kontak.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Kontak
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section
+        class="
+            hero
+            relative
+            min-h-[560px]
+            flex
+            items-center
+            overflow-hidden
+            bg-cover
+            bg-center
+        "
+        style="
+            background:
+                linear-gradient(
+                    rgba(11, 42, 87, 0.78),
+                    rgba(13, 55, 110, 0.75)
+                ),
+                url('img/foto-sekolah.jpg');
+
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        "
+    >
+
+
+        <div
+            class="
+                relative
+                max-w-7xl
+                mx-auto
+                px-6
+                lg:px-10
+                pt-24
+                pb-16
+                min-h-[560px]
+                flex
+                items-center
+                w-full
+            "
+        >
+
+
+            <div
+                class="
+                    grid
+                    grid-cols-1
+                    lg:grid-cols-2
+                    gap-8
+                    lg:gap-10
+                    items-center
+                    w-full
+                "
+            >
+
+
+                <!-- FOTO SEKOLAH -->
+                <div
+                    class="
+                        order-1
+                        lg:order-1
+                        flex
+                        items-center
+                        justify-center
+                        w-full
+                    "
+                >
+
+                    <div
+                        class="
+                            rounded-[28px]
+                            bg-slate-300/40
+                            p-3
+                            w-full
+                            max-w-md
+                        "
+                    >
+
+                        <img
+                            src="img/foto-sekolah.jpg"
+                            alt="Foto SMAN 1 AMONGGEDO"
+                            class="
+                                rounded-[22px]
+                                w-full
+                                h-48
+                                md:h-56
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TEKS HERO -->
+                <div
+                    class="
+                        text-white
+                        order-2
+                        lg:order-2
+                        flex
+                        flex-col
+                        justify-center
+                        w-full
+                        min-w-0
+                        pt-2
+                        lg:pt-8
+                    "
+                >
+
+                    <p
+                        class="
+                            text-cyan-300
+                            text-xl
+                            md:text-2xl
+                        "
+                    >
+                        Selamat Datang di
+                    </p>
+
+
+                    <h1
+                        class="
+                            text-5xl
+                            md:text-6xl
+                            lg:text-7xl
+                            font-black
+                            leading-none
+                            mt-3
+                        "
+                    >
+                        SMAN 1
+                        <br>
+                        AMONGGEDO
+                    </h1>
+
+
+                    <p
+                        class="
+                            mt-6
+                            text-sm
+                            md:text-base
+                            leading-7
+                            max-w-xl
+                        "
+                    >
+                        Website resmi sekolah sebagai media informasi,
+                        publikasi kegiatan, berita sekolah, galeri,
+                        dan layanan informasi untuk siswa, guru,
+                        serta masyarakat.
+                    </p>
+
+
+                    <div
+                        class="
+                            flex
+                            flex-wrap
+                            gap-3
+                            mt-6
+                        "
+                    >
+
+                        <a
+                            href="profil.html"
+                            class="
+                                px-6
+                                py-3
+                                rounded-full
+                                bg-cyan-400
+                                hover:bg-cyan-300
+                                text-white
+                                text-xs
+                                font-bold
+                                transition
+                            "
+                        >
+                            Profil Kami
+                        </a>
+
+
+                        <a
+                            href="berita.html"
+                            class="
+                                px-6
+                                py-3
+                                rounded-full
+                                bg-white/15
+                                hover:bg-white/25
+                                text-white
+                                text-xs
+                                font-bold
+                                transition
+                            "
+                        >
+                            Berita Sekolah
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- WAVE -->
+        <div class="wave"></div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MAIN
+         ===================================================== -->
+
+    <main
+        class="
+            max-w-7xl
+            mx-auto
+            px-6
+            lg:px-10
+            w-full
+            min-w-0
+        "
+    >
+
+
+
+        <!-- =================================================
+             KATA SAMBUTAN
+             ================================================= -->
+
+        <section class="py-16">
+
+            <div
+                class="
+                    text-center
+                    mb-10
+                "
+            >
+
+                <div
+                    class="
+                        uppercase
+                        tracking-[.3em]
+                        text-[10px]
+                        text-blue-600
+                        font-bold
+                    "
+                >
+                    • SAMBUTAN KEPALA SEKOLAH •
+                </div>
+
+
+                <h2
+                    class="
+                        text-4xl
+                        md:text-4xl
+                        font-black
+                        mt-2
+                    "
+                >
+                    Kata Sambutan
+                </h2>
+
+
+                <div
+                    class="
+                        w-20
+                        h-0.5
+                        bg-blue-500
+                        mx-auto
+                        mt-3
+                    "
+                ></div>
+
+            </div>
+
+
+
+            <div
+                class="
+                    grid
+                    grid-cols-[90px_minmax(0,1fr)]
+                    md:grid-cols-[160px_minmax(0,1fr)]
+                    lg:grid-cols-[190px_minmax(0,1fr)]
+                    gap-3
+                    md:gap-5
+                    max-w-5xl
+                    mx-auto
+                    items-center
+                    w-full
+                    min-w-0
+                "
+            >
+
+
+                <!-- FOTO KEPALA SEKOLAH -->
+                <div
+                    class="
+                        bg-white
+                        rounded-2xl
+                        overflow-hidden
+                        shadow
+                        w-full
+                        min-w-0
+                    "
+                >
+
+                    <img
+                        src="img/kepala-sekolah.png"
+                        alt="Kepala Sekolah SMAN 1 AMONGGEDO
+                        class="
+                            w-full
+                            h-40
+                            md:h-52
+                            object-cover
+                        "
+                    >
+
+
+                    <div
+                        class="
+                            bg-gradient-to-r
+                            from-blue-600
+                            to-cyan-400
+                            text-white
+                            p-2
+                            md:p-3
+                        "
+                    >
+
+                        <b
+                            class="
+                                text-[9px]
+                                md:text-sm
+                                block
+                            "
+                        >
+                            Kepala Sekolah
+                        </b>
+
+
+                        <div
+                            class="
+                                text-[7px]
+                                md:text-[10px]
+                            "
+                        >
+                            SMAN 1 Amonggedo
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SAMBUTAN -->
+                <div
+                    class="
+                        bg-white
+                        rounded-3xl
+                        p-4
+                        md:p-6
+                        lg:p-8
+                        shadow-lg
+                        min-w-0
+                        w-full
+                        overflow-hidden
+                    "
+                >
+
+                    <h3
+                        class="
+                            text-[11px]
+                            leading-5
+                            md:text-lg
+                            lg:text-xl
+                            font-extrabold
+                            text-blue-900
+                        "
+                    >
+                        Assalamu’alaikum Warahmatullahi Wabarakatuh.
+                    </h3>
+
+
+                    <p
+                        class="
+                            text-[9px]
+                            md:text-sm
+                            leading-6
+                            md:leading-7
+                            text-slate-600
+                            mt-3
+                        "
+                    >
+                        Puji syukur kita panjatkan ke hadirat Allah SWT
+                        karena atas rahmat dan karunia-Nya, website sekolah
+                        hadir sebagai media informasi bagi seluruh warga
+                        sekolah maupun masyarakat luas.
+                    </p>
+
+
+                    <p
+                        class="
+                            text-[9px]
+                            md:text-sm
+                            leading-6
+                            md:leading-7
+                            text-slate-600
+                            mt-4
+                        "
+                    >
+                        Di era digital saat ini, pemanfaatan teknologi
+                        informasi menjadi bagian penting dalam meningkatkan
+                        kualitas pelayanan pendidikan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             INFORMASI SEKOLAH
+             ================================================= -->
+
+        <section class="py-5">
+
+            <div
+                class="
+                    section-header
+                    flex
+                    justify-between
+                    items-end
+                    gap-3
+                    mb-6
+                    w-full
+                    min-w-0
+                "
+            >
+
+                <div class="min-w-0">
+
+                    <h2
+                        class="
+                            section-title
+                            text-3xl
+                            font-black
+                        "
+                    >
+                        Informasi Sekolah
+                    </h2>
+
+
+                    <p
+                        class="
+                            text-xs
+                            text-slate-500
+                            ml-4
+                        "
+                    >
+                        Berita dan informasi terbaru
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="berita.html"
+                    class="
+                        text-blue-600
+                        text-xs
+                        font-bold
+                        whitespace-nowrap
+                        flex-shrink-0
+                    "
+                >
+                    Selengkapnya →
+                </a>
+
+            </div>
+
+
+
+            <div
+                class="
+                    grid
+                    grid-cols-1
+                    sm:grid-cols-2
+                    lg:grid-cols-4
+                    gap-4
+                    w-full
+                "
+            >
+
+                <!-- BERITA 1 -->
+                <a
+                    href="detail-berita1.html"
+                    class="
+                        card
+                        bg-white
+                        rounded-2xl
+                        overflow-hidden
+                        shadow
+                        block
+                        w-full
+                        min-w-0
+                    "
+                >
+
+                    <img
+                        src="img/berita-1.jpg"
+                        alt="Apel Perdana Tahun Ajaran 2026/2027"
+                        class="
+                            w-full
+                            h-40
+                            md:h-32
+                            object-cover
+                        "
+                    >
+
+
+                    <div class="p-3">
+
+                        <b
+                            class="
+                                text-sm
+                                block
+                            "
+                        >
+                            Apel Perdana Tahun Ajaran 2026/2027
+                        </b>
+
+
+                        <p
+                            class="
+                                text-[10px]
+                                text-slate-400
+                                mt-2
+                            "
+                        >
+                            03 Agustus 2026
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- BERITA 2 -->
+                <a
+                    href="detail-berita2.html"
+                    class="
+                        card
+                        bg-white
+                        rounded-2xl
+                        overflow-hidden
+                        shadow
+                        block
+                        w-full
+                        min-w-0
+                    "
+                >
+
+                    <img
+                        src="img/berita-2.jpg"
+                        alt="Rapat Awal Tahun Ajaran 2026/2027"
+                        class="
+                            w-full
+                            h-40
+                            md:h-32
+                            object-cover
+                        "
+                    >
+
+
+                    <div class="p-3">
+
+                        <b
+                            class="
+                                text-sm
+                                block
+                            "
+                        >
+                            Rapat Awal Tahun Ajaran 2026/2027
+                        </b>
+
+
+                        <p
+                            class="
+                                text-[10px]
+                                text-slate-400
+                                mt-2
+                            "
+                        >
+                            03 Agustus 2026
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PENGUMUMAN
+             ================================================= -->
+
+        <section class="py-10">
+
+            <div
+                class="
+                    section-header
+                    flex
+                    justify-between
+                    items-end
+                    gap-3
+                    mb-6
+                    w-full
+                    min-w-0
+                "
+            >
+
+                <div class="min-w-0">
+
+                    <h2
+                        class="
+                            section-title
+                            text-3xl
+                            font-black
+                        "
+                    >
+                        Pengumuman
+                    </h2>
+
+
+                    <p
+                        class="
+                            text-xs
+                            text-slate-500
+                            ml-4
+                        "
+                    >
+                        Informasi dan pengumuman terbaru sekolah
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="berita.html"
+                    class="
+                        text-blue-600
+                        text-xs
+                        font-bold
+                        whitespace-nowrap
+                        flex-shrink-0
+                    "
+                >
+                    Selengkapnya →
+                </a>
+
+            </div>
+
+
+
+            <div
+                class="
+                    grid
+                    grid-cols-1
+                    sm:grid-cols-2
+                    lg:grid-cols-4
+                    gap-4
+                    w-full
+                "
+            >
+                <a
+                    href="detail-berita3.html"
+                    class="
+                        card
+                        bg-white
+                        rounded-2xl
+                        overflow-hidden
+                        shadow
+                        block
+                        w-full
+                        max-w-xs
+                    "
+                >
+
+                    <img
+                        src="img/berita-3.png"
+                        alt="PPDB SMAN 1 Amonggedo 2026/2027"
+                        class="
+                            w-full
+                            h-44
+                            object-cover
+                        "
+                    >
+
+
+                    <div class="p-3">
+
+                        <b class="text-sm block">
+
+                            PPDB SMAN 1 Amonggedo
+                            2026/2027
+
+                        </b>
+
+
+                        <p
+                            class="
+                                text-[10px]
+                                text-slate-400
+                                mt-2
+                            "
+                        >
+                            03 Agustus 2026
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <a
+                    href="detail-berita4.html"
+                    class="
+                        card
+                        bg-white
+                        rounded-2xl
+                        overflow-hidden
+                        shadow
+                        block
+                        w-full
+                        max-w-xs
+                    "
+                >
+
+                    <img
+                        src="img/berita-4.png"
+                        alt="Kurikulum Satuan Pendidikan - SMAN 1 Amonggedo 2026-2027"
+                        class="
+                            w-full
+                            h-44
+                            object-cover
+                        "
+                    >
+
+                    <div class="p-3">
+
+                        <b class="text-sm block">
+
+                            Kurikulum Satuan Pendidikan - SMAN 1 Amonggedo 2026-2027
+
+                        </b>
+
+
+                        <p
+                            class="
+                                text-[10px]
+                                text-slate-400
+                                mt-2
+                            "
+                        >
+                            12 September 2026
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             EKSTRAKURIKULER
+             ================================================= -->
+
+        <section class="py-10">
+
+            <div
+                class="
+                    section-header
+                    flex
+                    justify-between
+                    items-end
+                    gap-3
+                    mb-6
+                    w-full
+                    min-w-0
+                "
+            >
+
+                <div class="min-w-0">
+
+                    <h2
+                        class="
+                            section-title
+                            text-3xl
+                            font-black
+                        "
+                    >
+                        Ekstrakurikuler
+                    </h2>
+
+
+                    <p
+                        class="
+                            text-xs
+                            text-slate-500
+                            ml-4
+                        "
+                    >
+                        Kegiatan dan pengembangan bakat siswa
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="ekstrakurikuler.html"
+                    class="
+                        text-blue-600
+                        text-xs
+                        font-bold
+                        whitespace-nowrap
+                        flex-shrink-0
+                    "
+                >
+                    Selengkapnya →
+                </a>
+
+            </div>
+
+
+
+            <div
+                class="
+                    flex
+                    gap-3
+                    overflow-x-auto
+                    pb-4
+                    w-full
+                "
+            >
+
+
+                <!-- OSIS -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/osis.jpg"
+                            alt="Ekstrakurikuler OSIS"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        OSIS
+                    </b>
+
+                </div>
+
+
+
+                <!-- MARCHING BAND -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/marchingband.jpg"
+                            alt="Ekstrakurikuler Marching Band"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        Marching Band
+                    </b>
+
+                </div>
+
+
+
+                <!-- BASKET -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/basket.jpg"
+                            alt="Ekstrakurikuler Basketball"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        Basketball
+                    </b>
+
+                </div>
+
+
+
+                <!-- FUTSAL -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/futsal.jpg"
+                            alt="Ekstrakurikuler Futsal"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        Futsal
+                    </b>
+
+                </div>
+
+
+
+                <!-- PASKIBRA -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/paskib.jpg"
+                            alt="Ekstrakurikuler Paskibra"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        Paskibra
+                    </b>
+
+                </div>
+
+
+
+                <!-- PRAMUKA -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/pramuka.jpg"
+                            alt="Ekstrakurikuler Pramuka"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        Pramuka
+                    </b>
+
+                </div>
+
+
+
+                <!-- PMR -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/pmr.jpg"
+                            alt="Ekstrakurikuler PMR"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        PMR
+                    </b>
+
+                </div>
+
+
+
+                <!-- UKS -->
+                <div
+                    class="
+                        min-w-[140px]
+                        bg-white
+                        rounded-2xl
+                        shadow
+                        p-4
+                        flex-shrink-0
+                    "
+                >
+
+                    <div
+                        class="
+                            h-32
+                            overflow-hidden
+                            rounded-xl
+                        "
+                    >
+
+                        <img
+                            src="img/uks.jpg"
+                            alt="Ekstrakurikuler UKS"
+                            class="
+                                w-full
+                                h-full
+                                object-cover
+                            "
+                        >
+
+                    </div>
+
+
+                    <b class="text-xs block mt-2">
+                        UKS
+                    </b>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             DOKUMENTASI
+             ================================================= -->
+
+        <section class="py-10">
+
+            <div
+                class="
+                    section-header
+                    flex
+                    justify-between
+                    items-end
+                    gap-3
+                    mb-6
+                    w-full
+                    min-w-0
+                "
+            >
+
+                <div class="min-w-0">
+
+                    <h2
+                        class="
+                            section-title
+                            text-3xl
+                            font-black
+                        "
+                    >
+                        Dokumentasi Kegiatan
+                    </h2>
+
+
+                    <p
+                        class="
+                            text-xs
+                            text-slate-500
+                            ml-4
+                        "
+                    >
+                        Album dokumentasi kegiatan sekolah
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="galeri.html"
+                    class="
+                        text-blue-600
+                        text-xs
+                        font-bold
+                        whitespace-nowrap
+                        flex-shrink-0
+                    "
+                >
+                    Selengkapnya →
+                </a>
+
+            </div>
+
+
+
+            <div
+                class="
+                    grid
+                    grid-cols-1
+                    sm:grid-cols-2
+                    gap-3
+                    max-w-xl
+                    w-full
+                "
+            >
+
+                <a
+                    href="galeri.html"
+                    class="
+                        card
+                        bg-white
+                        rounded-2xl
+                        overflow-hidden
+                        shadow
+                        block
+                        w-full
+                    "
+                >
+
+                    <img
+                        src="img/mpls.png"
+                        alt="MPLS 2026 SMAN 1 Amonggedo"
+                        class="
+                            w-full
+                            h-40
+                            md:h-32
+                            object-cover
+                        "
+                    >
+
+
+                    <div
+                        class="
+                            p-3
+                            font-bold
+                            text-sm
+                        "
+                    >
+                        MPLS 2026 SMAN 1 Amonggedo
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer
+        class="
+            bg-[#081633]
+            text-white
+            mt-20
+            w-full
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-6
+                lg:px-10
+                py-12
+                grid
+                grid-cols-1
+                md:grid-cols-3
+                gap-10
+                w-full
+            "
+        >
+
+
+            <!-- DESKRIPSI -->
+            <div class="min-w-0">
+
+                <b class="text-lg">
+                    SMAN 1 AMONGGEDO
+                </b>
+
+
+                <p
+                    class="
+                        text-sm
+                        text-slate-300
+                        leading-7
+                        mt-4
+                    "
+                >
+                    Website resmi sekolah sebagai media informasi,
+                    publikasi kegiatan, berita, galeri, dan layanan
+                    informasi sekolah.
+                </p>
+
+            </div>
+
+
+
+            <!-- KONTAK -->
+            <div class="min-w-0">
+
+                <b>
+                    Hubungi Kami
+                </b>
+
+
+                <p
+                    class="
+                        text-sm
+                        text-slate-300
+                        leading-7
+                        mt-4
+                    "
+                >
+
+                    📍 Jalan Poros Amonggedo,
+                    Konawe, Sulawesi Tenggara
+
+                    <br>
+
+                    ☎ 0852 2110 2515
+
+                    <br>
+
+                    ✉ sman1amonggedo@gmail.com
+
+                </p>
+
+            </div>
+
+
+
+            <!-- LOKASI -->
+            <div>
+
+                <b class="text-xs">
+                    Lokasi Sekolah
+                </b>
+
+
+                <div
+                    class="
+                        h-28
+                        rounded-xl
+                        overflow-hidden
+                        mt-3
+                    "
+                >
+
+                    <iframe
+                        title="Peta lokasi SMAN 1 Amonggedo"
+                        src="https://www.google.com/maps?q=SMAN%201%20Amonggedo%20Konawe&output=embed"
+                        class="
+                            w-full
+                            h-full
+                            border-0
+                        "
+                        loading="lazy"
+                    >
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+        <div
+            class="
+                border-t
+                border-white/10
+                py-5
+                text-center
+                text-xs
+                text-slate-400
+                px-4
+            "
+        >
+
+            ©
+            <span data-year></span>
+            SMAN 1 AMONGGEDO • All Rights Reserved
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

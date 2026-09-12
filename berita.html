@@ -1,0 +1,1151 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SMAN 1 Amonggedo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="bg-[#f5f8fc] text-slate-900">
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header
+        class="
+            fixed
+            top-0
+            inset-x-0
+            z-50
+            bg-[#07152f]/95
+            backdrop-blur
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-5
+                lg:px-10
+                h-16
+                flex
+                items-center
+                justify-between
+            "
+        >
+
+            <!-- LOGO -->
+            <a
+                href="index.html"
+                class="
+                    flex
+                    items-center
+                    gap-2
+                    min-w-0
+                "
+            >
+
+                <div class="w-10 h-10 flex-shrink-0">
+    <img
+        src="img/logo.png"
+        alt="Logo SMAN 1 Amonggedo"
+        class="w-full h-full object-contain"
+    >
+</div>
+
+
+                <div class="min-w-0">
+
+                    <b
+                        class="
+                            text-white
+                            text-sm
+                            block
+                            whitespace-nowrap
+                        "
+                    >
+                        SMAN 1 AMONGGEDO
+                    </b>
+
+
+                    <div
+                        class="
+                            text-cyan-200
+                            text-[9px]
+                            whitespace-nowrap
+                        "
+                    >
+                        Website Resmi Sekolah
+                    </div>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- NAVIGASI DESKTOP -->
+            <nav
+                class="
+                    hidden
+                    md:flex
+                    gap-6
+                    items-center
+                "
+            >
+
+                <a
+                    href="index.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Beranda
+                </a>
+
+
+                <a
+                    href="profil.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Profil
+                </a>
+
+
+                <a
+                    href="berita.html"
+                    class="
+                        text-xs
+                        text-cyan-300
+                        hover:text-cyan-300
+                    "
+                >
+                    Berita
+                </a>
+
+
+                <a
+                    href="galeri.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Galeri
+                </a>
+
+
+                <a
+                    href="direktori.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Direktori
+                </a>
+
+
+                <a
+                    href="ekstrakurikuler.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Ekskul
+                </a>
+
+
+                <a
+                    href="https://spmb.sultraprov.go.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    PPDB
+                </a>
+
+
+                <a
+                    href="kontak.html"
+                    class="
+                        text-xs
+                        text-white
+                        hover:text-cyan-300
+                    "
+                >
+                    Kontak
+                </a>
+
+            </nav>
+
+
+
+            <!-- MENU MOBILE -->
+            <button
+                type="button"
+                data-menu
+                class="
+                    md:hidden
+                    text-white
+                    text-2xl
+                    w-10
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    flex-shrink-0
+                "
+                aria-label="Buka menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+
+        <!-- MENU MOBILE -->
+        <div
+            data-mobile
+            class="
+                mobile-menu
+                md:hidden
+                bg-[#07152f]
+                px-5
+                pb-4
+            "
+        >
+
+            <a
+                href="index.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Beranda
+            </a>
+
+
+            <a
+                href="profil.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Profil
+            </a>
+
+
+            <a
+                href="berita.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-cyan-300
+                    rounded-xl
+                    bg-white/5
+                "
+            >
+                Berita
+            </a>
+
+
+            <a
+                href="galeri.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Galeri
+            </a>
+
+
+            <a
+                href="direktori.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Direktori
+            </a>
+
+
+            <a
+                href="ekstrakurikuler.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Ekskul
+            </a>
+
+
+            <a
+                href="https://spmb.sultraprov.go.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                PPDB
+            </a>
+
+
+            <a
+                href="kontak.html"
+                class="
+                    block
+                    px-4
+                    py-3
+                    text-white
+                    rounded-xl
+                    hover:bg-white/10
+                "
+            >
+                Kontak
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO / BANNER
+         ===================================================== -->
+
+    <section
+        class="
+            berita-hero
+            relative
+            min-h-[300px]
+            flex
+            items-center
+            justify-center
+            overflow-hidden
+            bg-cover
+            bg-center
+        "
+        style="
+            background:
+                linear-gradient(
+                    rgba(11,42,87,.78),
+                    rgba(13,55,110,.78)
+                ),
+                url('img/foto-sekolah.jpg');
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        "
+    >
+
+        <div
+            class="
+                relative
+                z-10
+                text-center
+                text-white
+                px-5
+                pt-16
+            "
+        >
+
+            <p
+                class="
+                    uppercase
+                    tracking-[.35em]
+                    text-[10px]
+                    md:text-xs
+                    text-cyan-300
+                    font-bold
+                "
+            >
+                INFORMASI SEKOLAH
+            </p>
+
+
+            <h1
+                class="
+                    text-4xl
+                    md:text-5xl
+                    lg:text-6xl
+                    font-black
+                    mt-3
+                "
+            >
+                Berita & Pengumuman
+            </h1>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         KONTEN BERITA
+         ===================================================== -->
+
+    <main
+        class="
+            max-w-7xl
+            mx-auto
+            px-4
+            md:px-6
+            lg:px-10
+            -mt-1
+            relative
+            z-10
+        "
+    >
+
+        <section
+            class="
+                bg-white
+                rounded-[24px]
+                shadow-sm
+                px-5
+                md:px-7
+                lg:px-8
+                py-7
+                md:py-8
+                lg:py-9
+            "
+        >
+
+
+            <!-- JUDUL -->
+            <div class="mb-7">
+
+                <h2
+                    class="
+                        text-2xl
+                        md:text-3xl
+                        font-black
+                        text-blue-900
+                    "
+                >
+                    Berita & Pengumuman
+                </h2>
+
+
+                <div
+                    class="
+                        w-full
+                        h-[2px]
+                        bg-gradient-to-r
+                        from-cyan-400
+                        to-cyan-500
+                        mt-3
+                    "
+                ></div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 DAFTAR BERITA
+                 ================================================= -->
+
+            <div
+                class="
+                    grid
+                    grid-cols-1
+                    sm:grid-cols-2
+                    lg:grid-cols-3
+                    xl:grid-cols-4
+                    gap-4
+                    items-start
+                "
+            >
+
+
+                <!-- =================================================
+                     BERITA 1
+                     ================================================= -->
+
+                <article
+                    class="
+                        berita-card
+                        bg-white
+                        border
+                        border-slate-200
+                        rounded-xl
+                        overflow-hidden
+                        shadow-sm
+                        hover:shadow-md
+                        transition
+                    "
+                >
+
+                    <a href="detail-berita1.html">
+
+                        <img
+                            src="img/berita-1.jpg"
+                            alt="Apel Perdana Tahun Ajaran 2026/2027"
+                            class="
+                                w-full
+                                h-32
+                                md:h-32
+                                object-cover
+                            "
+                        >
+
+                    </a>
+
+
+                    <div class="p-3">
+
+
+                        <!-- TANGGAL -->
+                        <div
+                            class="
+                                flex
+                                items-center
+                                gap-2
+                                text-[10px]
+                                text-slate-400
+                                mb-2
+                            "
+                        >
+
+                            <span>
+                                ▣
+                            </span>
+
+                            <span>
+                                03 Agustus 2026
+                            </span>
+
+                        </div>
+
+
+
+                        <!-- JUDUL -->
+                        <a href="detail-berita1.html">
+
+                            <h3
+                                class="
+                                    text-sm
+                                    font-bold
+                                    leading-5
+                                    text-slate-900
+                                    hover:text-blue-700
+                                "
+                            >
+                                Apel Perdana Tahun Ajaran
+                                2026/2027
+                            </h3>
+
+                        </a>
+
+
+
+                        <!-- DESKRIPSI -->
+                        <p
+                            class="
+                                text-[11px]
+                                leading-5
+                                text-slate-500
+                                mt-3
+                            "
+                        >
+                            Amonggedo – SMAN 1 Amonggedo
+                            melaksanakan Apel Perdana Tahun
+                            Ajaran 2026/2027 pada awal tahun
+                            pelajaran.
+                        </p>
+
+
+
+                        <!-- LINK -->
+                        <a
+                            href="detail-berita.html"
+                            class="
+                                inline-flex
+                                items-center
+                                gap-1
+                                text-[10px]
+                                font-bold
+                                text-blue-600
+                                hover:text-blue-800
+                                mt-4
+                            "
+                        >
+                            Baca Selengkapnya
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     BERITA 2
+                     ================================================= -->
+
+                <article
+                    class="
+                        berita-card
+                        bg-white
+                        border
+                        border-slate-200
+                        rounded-xl
+                        overflow-hidden
+                        shadow-sm
+                        hover:shadow-md
+                        transition
+                    "
+                >
+
+                    <a href="detail-berita2.html">
+
+                        <img
+                            src="img/berita-2.jpg"
+                            alt="Rapat Awal Tahun Ajaran 2026/2027"
+                            class="
+                                w-full
+                                h-32
+                                object-cover
+                            "
+                        >
+
+                    </a>
+
+
+                    <div class="p-3">
+
+
+                        <div
+                            class="
+                                flex
+                                items-center
+                                gap-2
+                                text-[10px]
+                                text-slate-400
+                                mb-2
+                            "
+                        >
+
+                            <span>
+                                ▣
+                            </span>
+
+                            <span>
+                                03 Agustus 2026
+                            </span>
+
+                        </div>
+
+
+
+                        <a href="detail-berita2.html">
+
+                            <h3
+                                class="
+                                    text-sm
+                                    font-bold
+                                    leading-5
+                                    text-slate-900
+                                    hover:text-blue-700
+                                "
+                            >
+                                Rapat Awal Tahun Ajaran
+                                2026/2027
+                            </h3>
+
+                        </a>
+
+
+
+                        <p
+                            class="
+                                text-[11px]
+                                leading-5
+                                text-slate-500
+                                mt-3
+                            "
+                        >
+                            Amonggedo – Dalam rangka
+                            menyambut dimulainya Tahun
+                            Ajaran 2026/2027, SMAN 1
+                            Amonggedo melaksanakan rapat awal
+                            tahun.
+                        </p>
+
+
+
+                        <a
+                            href="detail-berita2.html"
+                            class="
+                                inline-flex
+                                items-center
+                                gap-1
+                                text-[10px]
+                                font-bold
+                                text-blue-600
+                                hover:text-blue-800
+                                mt-4
+                            "
+                        >
+                            Baca Selengkapnya
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     BERITA 3
+                     ================================================= -->
+
+                <article
+                    class="
+                        berita-card
+                        bg-white
+                        border
+                        border-slate-200
+                        rounded-xl
+                        overflow-hidden
+                        shadow-sm
+                        hover:shadow-md
+                        transition
+                    "
+                >
+
+                    <a href="detail-berita3.html">
+
+                        <img
+                            src="img/berita-3.png"
+                            alt="PPDB SMAN 1 Amonggedo 2026/2027"
+                            class="
+                                w-full
+                                h-32
+                                object-cover
+                            "
+                        >
+
+                    </a>
+
+
+                    <div class="p-3">
+
+
+                        <div
+                            class="
+                                flex
+                                items-center
+                                gap-2
+                                text-[10px]
+                                text-slate-400
+                                mb-2
+                            "
+                        >
+
+                            <span>
+                                ▣
+                            </span>
+
+                            <span>
+                                03 Agustus 2026
+                            </span>
+
+                        </div>
+
+
+
+                        <a href="detail-berita3.html">
+
+                            <h3
+                                class="
+                                    text-sm
+                                    font-bold
+                                    leading-5
+                                    text-slate-900
+                                    hover:text-blue-700
+                                "
+                            >
+                                PPDB SMAN 1 Amonggedo
+                                2026/2027
+                            </h3>
+
+                        </a>
+
+
+
+                        <p
+                            class="
+                                text-[11px]
+                                leading-5
+                                text-slate-500
+                                mt-3
+                            "
+                        >
+                            Informasi Penerimaan Peserta
+                            Didik Baru SMAN 1 Amonggedo
+                            Tahun Pelajaran 2026/2027.
+                        </p>
+
+
+
+                        <a
+                            href="detail-berita3.html"
+                            class="
+                                inline-flex
+                                items-center
+                                gap-1
+                                text-[10px]
+                                font-bold
+                                text-blue-600
+                                hover:text-blue-800
+                                mt-4
+                            "
+                        >
+                            Baca Selengkapnya
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     BERITA 4
+                     ================================================= -->
+
+                <article
+                    class="
+                        berita-card
+                        bg-white
+                        border
+                        border-slate-200
+                        rounded-xl
+                        overflow-hidden
+                        shadow-sm
+                        hover:shadow-md
+                        transition
+                    "
+                >
+
+                    <a href="detail-berita4.html">
+
+                        <img
+                            src="img/mpls.png"
+                            alt="Kurikulum Satuan Pendidikan"
+                            class="
+                                w-full
+                                h-32
+                                object-cover
+                            "
+                        >
+
+                    </a>
+
+
+                    <div class="p-3">
+
+
+                        <div
+                            class="
+                                flex
+                                items-center
+                                gap-2
+                                text-[10px]
+                                text-slate-400
+                                mb-2
+                            "
+                        >
+
+                            <span>
+                                ▣
+                            </span>
+
+                            <span>
+                                12 September 2026
+                            </span>
+
+                        </div>
+
+
+
+                        <a href="detail-berita4.html">
+
+                            <h3
+                                class="
+                                    text-sm
+                                    font-bold
+                                    leading-5
+                                    text-slate-900
+                                    hover:text-blue-700
+                                "
+                            >
+                                Kurikulum Satuan Pendidikan
+                            </h3>
+
+                        </a>
+
+
+
+                        <p
+                            class="
+                                text-[11px]
+                                leading-5
+                                text-slate-500
+                                mt-3
+                            "
+                        >
+                            Dokumentasi kegiatan Masa
+                            Pengenalan Lingkungan Sekolah
+                            SMAN 1 Amonggedo.
+                        </p>
+
+
+
+                        <a
+                            href="detail-berita4.html"
+                            class="
+                                inline-flex
+                                items-center
+                                gap-1
+                                text-[10px]
+                                font-bold
+                                text-blue-600
+                                hover:text-blue-800
+                                mt-4
+                            "
+                        >
+                            Baca Selengkapnya
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer
+        class="
+            bg-[#081633]
+            text-white
+            mt-20
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-6
+                lg:px-10
+                py-12
+                grid
+                grid-cols-1
+                md:grid-cols-3
+                gap-10
+            "
+        >
+
+
+            <!-- DESKRIPSI -->
+            <div>
+
+                <b class="text-lg">
+                    SMAN 1 AMONGGEDO
+                </b>
+
+
+                <p
+                    class="
+                        text-sm
+                        text-slate-300
+                        leading-7
+                        mt-4
+                    "
+                >
+                    Website resmi sekolah sebagai media
+                    informasi, publikasi kegiatan, berita,
+                    galeri, dan layanan informasi sekolah.
+                </p>
+
+            </div>
+
+
+
+            <!-- KONTAK -->
+            <div>
+
+                <b>
+                    Hubungi Kami
+                </b>
+
+
+                <p
+                    class="
+                        text-sm
+                        text-slate-300
+                        leading-7
+                        mt-4
+                    "
+                >
+
+                    📍 Jalan Poros Amonggedo,
+                    Konawe, Sulawesi Tenggara
+
+                    <br>
+
+                    ☎ 0852 2110 2515
+
+                    <br>
+
+                    ✉ sman1amonggedo@gmail.com
+
+                </p>
+
+            </div>
+
+
+
+            <!-- LOKASI -->
+            <div>
+
+                <b class="text-xs">
+                    Lokasi Sekolah
+                </b>
+
+
+                <div
+                    class="
+                        h-28
+                        rounded-xl
+                        overflow-hidden
+                        mt-3
+                    "
+                >
+
+                    <iframe
+                        title="Peta lokasi SMAN 1 Amonggedo"
+                        src="https://www.google.com/maps?q=SMAN%201%20Amonggedo%20Konawe&output=embed"
+                        class="
+                            w-full
+                            h-full
+                            border-0
+                        "
+                        loading="lazy"
+                    >
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+        <div
+            class="
+                border-t
+                border-white/10
+                py-5
+                text-center
+                text-xs
+                text-slate-400
+            "
+        >
+
+            ©
+            <span data-year></span>
+            SMAN 1 AMONGGEDO • All Rights Reserved
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1226 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SMAN 1 Amonggedo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body class="bg-[#f4f8fc] text-slate-900">
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header
+        class="
+            fixed
+            top-0
+            inset-x-0
+            z-50
+            bg-[#10182b]/95
+            backdrop-blur
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-5
+                lg:px-10
+                h-16
+                flex
+                items-center
+                justify-between
+            "
+        >
+
+            <!-- LOGO -->
+            <a
+                href="index.html"
+                class="
+                    flex
+                    items-center
+                    gap-2
+                    min-w-0
+                "
+            >
+
+                <div class="w-10 h-10 flex-shrink-0">
+    <img
+        src="img/logo.png"
+        alt="Logo SMAN 1 Amonggedo"
+        class="w-full h-full object-contain"
+    >
+</div>
+
+
+                <div class="min-w-0">
+
+                    <b
+                        class="
+                            block
+                            text-white
+                            text-sm
+                            whitespace-nowrap
+                        "
+                    >
+                        SMAN 1 AMONGGEDO
+                    </b>
+
+
+                    <span
+                        class="
+                            block
+                            text-cyan-200
+                            text-[9px]
+                            whitespace-nowrap
+                        "
+                    >
+                        Website Resmi Sekolah
+                    </span>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- NAVIGASI DESKTOP -->
+            <nav
+                class="
+                    hidden
+                    md:flex
+                    items-center
+                    gap-6
+                "
+            >
+
+                <a href="index.html" class="nav-link">
+                    Beranda
+                </a>
+
+                <a href="profil.html" class="nav-link">
+                    Profil
+                </a>
+
+                <a href="berita.html" class="nav-link">
+                    Berita
+                </a>
+
+                <a href="galeri.html" class="nav-link">
+                    Galeri
+                </a>
+
+                <a
+                    href="direktori.html"
+                    class="
+                        nav-link
+                        text-cyan-300
+                    "
+                >
+                    Direktori
+                </a>
+
+                <a href="ekstrakurikuler.html" class="nav-link">
+                    Ekskul
+                </a>
+
+                <a
+                    href="https://spmb.sultraprov.go.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-link"
+                >
+                    PPDB
+                </a>
+
+                <a href="kontak.html" class="nav-link">
+                    Kontak
+                </a>
+
+            </nav>
+
+
+
+            <!-- TOMBOL MOBILE -->
+            <button
+                type="button"
+                data-menu
+                aria-label="Buka menu"
+                class="
+                    md:hidden
+                    w-10
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    text-white
+                    text-xl
+                "
+            >
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- MENU MOBILE -->
+        <div
+            data-mobile
+            class="
+                mobile-menu
+                md:hidden
+                bg-[#10182b]
+                px-5
+                pb-4
+            "
+        >
+
+            <a href="index.html" class="mobile-link">
+                Beranda
+            </a>
+
+            <a href="profil.html" class="mobile-link">
+                Profil
+            </a>
+
+            <a href="berita.html" class="mobile-link">
+                Berita
+            </a>
+
+            <a href="galeri.html" class="mobile-link">
+                Galeri
+            </a>
+
+            <a
+                href="direktori.html"
+                class="
+                    mobile-link
+                    text-cyan-300
+                    bg-white/5
+                "
+            >
+                Direktori
+            </a>
+
+            <a href="ekstrakurikuler.html" class="mobile-link">
+                Ekskul
+            </a>
+
+            <a
+                href="https://spmb.sultraprov.go.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mobile-link"
+            >
+                PPDB
+            </a>
+
+            <a href="kontak.html" class="mobile-link">
+                Kontak
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section
+        class="
+            relative
+            h-[300px]
+            md:h-[340px]
+            flex
+            items-center
+            justify-center
+            text-center
+            overflow-hidden
+            bg-cover
+            bg-center
+        "
+        style="
+            background:
+                linear-gradient(
+                    rgba(11, 42, 87, 0.78),
+                    rgba(13, 55, 110, 0.78)
+                ),
+                url('img/foto-sekolah.jpg');
+
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        "
+    >
+
+        <div
+            class="
+                relative
+                z-10
+                px-5
+                pt-14
+            "
+        >
+
+            <p
+                class="
+                    uppercase
+                    tracking-[0.35em]
+                    text-[9px]
+                    md:text-xs
+                    text-cyan-300
+                    font-bold
+                "
+            >
+                DIREKTORI SEKOLAH
+            </p>
+
+
+            <h1
+                class="
+                    text-4xl
+                    md:text-5xl
+                    lg:text-6xl
+                    font-black
+                    text-white
+                    mt-4
+                    leading-none
+                "
+            >
+                Guru & Staff
+            </h1>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         KONTEN DIREKTORI
+         ===================================================== -->
+
+    <main
+        class="
+            max-w-6xl
+            mx-auto
+            px-5
+            md:px-8
+            lg:px-10
+            py-8
+            md:py-10
+        "
+    >
+
+        <section
+            class="
+                bg-white
+                rounded-2xl
+                shadow-sm
+                border
+                border-slate-100
+                p-4
+                md:p-6
+            "
+        >
+
+            <!-- JUDUL -->
+            <h2
+                class="
+                    text-lg
+                    md:text-xl
+                    font-black
+                    text-[#263f83]
+                "
+            >
+                Guru & Staff SMAN 1 Amonggedo
+            </h2>
+
+
+            <div
+                class="
+                    h-[2px]
+                    w-full
+                    bg-cyan-400
+                    mt-2
+                    mb-5
+                "
+            ></div>
+
+
+
+            <!-- GRID GURU -->
+            <div
+                id="guruGrid"
+                class="
+                    grid
+                    grid-cols-2
+                    md:grid-cols-4
+                    gap-3
+                "
+            >
+            </div>
+
+
+
+            <!-- PAGINATION -->
+            <div
+                id="pagination"
+                class="
+                    flex
+                    items-center
+                    justify-end
+                    flex-wrap
+                    gap-1
+                    mt-6
+                "
+            >
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer
+        class="
+            bg-[#081633]
+            text-white
+            mt-10
+        "
+    >
+
+        <div
+            class="
+                max-w-7xl
+                mx-auto
+                px-6
+                lg:px-10
+                py-10
+                grid
+                grid-cols-1
+                md:grid-cols-3
+                gap-8
+            "
+        >
+
+            <!-- INFORMASI SEKOLAH -->
+            <div>
+
+                <div
+                    class="
+                        flex
+                        items-center
+                        gap-2
+                    "
+                >
+
+                    <div
+                        class="
+                            w-8
+                            h-8
+                            rounded-full
+                            overflow-hidden
+                            bg-white
+                            flex-shrink-0
+                        "
+                    >
+
+                        <img
+                            src="img/logo.png"
+                            alt="Logo SMAN 1 Amonggedo"
+                            class="
+                                w-full
+                                h-full
+                                object-contain
+                            "
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <b class="text-xs">
+                            SMAN 1 AMONGGEDO
+                        </b>
+
+
+                        <p
+                            class="
+                                text-[7px]
+                                text-cyan-200
+                            "
+                        >
+                            Website Resmi Sekolah
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <p
+                    class="
+                        text-[10px]
+                        text-slate-300
+                        leading-5
+                        mt-4
+                    "
+                >
+                    Website resmi sekolah sebagai media
+                    informasi, publikasi kegiatan, berita,
+                    galeri, dan layanan informasi sekolah.
+                </p>
+
+            </div>
+
+
+
+            <!-- HUBUNGI KAMI -->
+            <div>
+
+                <b class="text-xs">
+                    Hubungi Kami
+                </b>
+
+
+                <p
+                    class="
+                        text-[10px]
+                        text-slate-300
+                        leading-5
+                        mt-3
+                    "
+                >
+
+                    <i class="fa-solid fa-location-dot mr-1"></i>
+                    Jalan Poros Amonggedo,
+                    Konawe, Sulawesi Tenggara
+
+                    <br>
+
+                    <i class="fa-solid fa-phone mr-1"></i>
+                    0852 2110 2515
+
+                    <br>
+
+                    <i class="fa-solid fa-envelope mr-1"></i>
+                    sman1amonggedo@gmail.com
+
+                </p>
+
+            </div>
+
+
+
+            <!-- LOKASI SEKOLAH -->
+            <div>
+
+                <b class="text-xs">
+                    Lokasi Sekolah
+                </b>
+
+
+                <div
+                    class="
+                        h-28
+                        rounded-xl
+                        overflow-hidden
+                        mt-3
+                    "
+                >
+
+                    <iframe
+                        title="Peta lokasi SMAN 1 Amonggedo"
+                        src="https://www.google.com/maps?q=SMAN%201%20Amonggedo%20Konawe&output=embed"
+                        class="
+                            w-full
+                            h-full
+                            border-0
+                        "
+                        loading="lazy"
+                    >
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+        <div
+            class="
+                border-t
+                border-white/10
+                py-4
+                text-center
+                text-[8px]
+                text-slate-500
+                px-4
+            "
+        >
+
+            ©
+            <span data-year></span>
+            SMAN 1 AMONGGEDO
+            • All Rights Reserved
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         DATA DAN SCRIPT DIREKTORI
+         ===================================================== -->
+
+    <script>
+
+        const guruData = [
+
+    {
+        nomor: 1,
+        nama: "Hapri, S.Pd., M.Pd",
+        jabatan: "Kepala Sekolah",
+        foto: "img/guru/guru-1.png"
+    },
+
+    {
+        nomor: 2,
+        nama: "La Bunga, S.Pd.",
+        jabatan: "Wakil Kepala Sekolah Kurikulum",
+        foto: "img/guru/guru-2.png"
+    },
+
+    {
+        nomor: 3,
+        nama: "Usman H. Wiyono, S.Sos., M.Pd.",
+        jabatan: "Wakil Kepala Sekolah Kesiswaan",
+        foto: "img/guru/guru-3.png"
+    },
+
+    {
+        nomor: 4,
+        nama: "Nursamsi Muslim Widuri, S.Pd.",
+        jabatan: "Wakil Kepala Sekolah Sarana & Prasarana",
+        foto: "img/guru/guru-4.png"
+    },
+
+    {
+        nomor: 5,
+        nama: "Hady Saputra, S.Pd.",
+        jabatan: "Wakil Kepala Sekolah Humas",
+        foto: "img/guru/guru-5.png"
+    },
+
+    {
+        nomor: 6,
+        nama: "Kiki Nurjana, S.Pd.",
+        jabatan: "Bendahara",
+        foto: "img/guru/guru-6.png"
+    },
+
+    {
+        nomor: 7,
+        nama: "Asofiansah, S.Pd.",
+        jabatan: "Guru",
+        foto: "img/guru/guru-7.png"
+    },
+
+    {
+        nomor: 8,
+        nama: "Putu Agus, S.Pd.",
+        jabatan: "Guru",
+        foto: "img/guru/guru-8.png"
+    },
+
+    {
+        nomor: 9,
+        nama: "Ni Wayan Agustini, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-9.png"
+    },
+
+    {
+        nomor: 10,
+        nama: "Nuryati, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-10.png"
+    },
+
+    {
+        nomor: 11,
+        nama: "Luh Yulianti, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-11.png"
+    },
+
+    {
+        nomor: 12,
+        nama: "Novarlin Hadrianto, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-12.png"
+    },
+
+    {
+        nomor: 13,
+        nama: "Agusman, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-13.png"
+    },
+
+    {
+        nomor: 14,
+        nama: "Tuty Yuliani Toarita, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-14.png"
+    },
+
+    {
+        nomor: 15,
+        nama: "Rusni K, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-15.png"
+    },
+
+    {
+        nomor: 16,
+        nama: "Maryatin, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-16.png"
+    },
+
+    {
+        nomor: 17,
+        nama: "Ikhwanuddin, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-17.png"
+    },
+
+    {
+        nomor: 18,
+        nama: "Wahyu, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-18.png"
+    },
+
+    {
+        nomor: 19,
+        nama: "Abu Bakar Sidiq, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-19.png"
+    },
+
+    {
+        nomor: 20,
+        nama: "Ruayida Lahay, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-20.png"
+    },
+
+    {
+        nomor: 21,
+        nama: "Susi Susanah, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-21.png"
+    },
+
+    {
+        nomor: 22,
+        nama: "Feri Pebriansyah, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-22.png"
+    },
+
+    {
+        nomor: 23,
+        nama: "Mursalim, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-23.png"
+    },
+
+    {
+        nomor: 24,
+        nama: "Neni Triana, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-24.png"
+    },
+
+    {
+        nomor: 25,
+        nama: "Nurlisa, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-25.png"
+    },
+
+    {
+        nomor: 26,
+        nama: "Titiyani, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-26.png"
+    },
+
+    {
+        nomor: 27,
+        nama: "Sri Hartati, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-27.png"
+    },
+
+    {
+        nomor: 28,
+        nama: "Trisman Kia, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-28.png"
+    },
+
+    {
+        nomor: 29,
+        nama: "Aidar, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-29.png"
+    },
+
+    {
+        nomor: 30,
+        nama: "Ardian, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-30.png"
+    },
+
+    {
+        nomor: 31,
+        nama: "Didin Ardiansyah, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-31.png"
+    },
+
+    {
+        nomor: 32,
+        nama: "Emilia, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-32.png"
+    },
+
+    {
+        nomor: 33,
+        nama: "Haslinda, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-33.png"
+    },
+
+    {
+        nomor: 34,
+        nama: "Juwariyah, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-34.png"
+    },
+
+    {
+        nomor: 35,
+        nama: "Muh. Randi Hardianto, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-35.png"
+    },
+
+    {
+        nomor: 36,
+        nama: "Ruliawan Mekuo, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-36.png"
+    },
+
+    {
+        nomor: 37,
+        nama: "Yustiani Razak, S.Pd",
+        jabatan: "Guru",
+        foto: "img/guru/guru-37.png"
+    },
+
+    {
+        nomor: 38,
+        nama: "Saifulla, S.Pd",
+        jabatan: "Staff",
+        foto: "img/guru/guru-38.png"
+    },
+
+    {
+        nomor: 39,
+        nama: "Maryatin, S.Pd",
+        jabatan: "Staff",
+        foto: "img/guru/guru-39.png"
+    },
+
+    {
+        nomor: 40,
+        nama: "Endriawan Kia",
+        jabatan: "Staff",
+        foto: "img/guru/guru-40.png"
+    },
+
+    {
+        nomor: 41,
+        nama: "Afriadi",
+        jabatan: "Staff",
+        foto: "img/guru/guru-41.png"
+    },
+
+    {
+        nomor: 42,
+        nama: "Alwing",
+        jabatan: "Staff",
+        foto: "img/guru/guru-42.png"
+    },
+
+    {
+        nomor: 43,
+        nama: "Hairun",
+        jabatan: "Staff",
+        foto: "img/guru/guru-43.png"
+    },
+
+    {
+        nomor: 44,
+        nama: "Trisno Kia",
+        jabatan: "Staff",
+        foto: "img/guru/guru-44.png"
+    },
+
+    {
+        nomor: 45,
+        nama: "Dadang Saputra",
+        jabatan: "Staff",
+        foto: "img/guru/guru-45.png"
+    },
+
+    {
+        nomor: 46,
+        nama: "Ahmad Dzakir",
+        jabatan: "Staff",
+        foto: "img/guru/guru-46.png"
+    },
+
+    {
+        nomor: 47,
+        nama: "Fadliah",
+        jabatan: "Staff",
+        foto: "img/guru/guru-47.png"
+    },
+
+    {
+        nomor: 48,
+        nama: "Fandi Ahmad Suryadi, S.Pd",
+        jabatan: "Staff",
+        foto: "img/guru/guru-48.png"
+    },
+
+    {
+        nomor: 49,
+        nama: "Gustin",
+        jabatan: "Staff",
+        foto: "img/guru/guru-49.png"
+    },
+
+    {
+        nomor: 50,
+        nama: "Herna",
+        jabatan: "Staff",
+        foto: "img/guru/guru-50.png"
+    },
+
+    {
+        nomor: 51,
+        nama: "Mariyatul Kibtiyah, S.Pd",
+        jabatan: "Staff",
+        foto: "img/guru/guru-51.png"
+    },
+
+    {
+        nomor: 52,
+        nama: "Nesa Rahmawati",
+        jabatan: "Staff",
+        foto: "img/guru/guru-52.png"
+    },
+
+    {
+        nomor: 53,
+        nama: "Sarman",
+        jabatan: "Staff",
+        foto: "img/guru/guru-53.png"
+    },
+
+    {
+        nomor: 54,
+        nama: "Taufik Aburaera",
+        jabatan: "Staff",
+        foto: "img/guru/guru-54.png"
+    },
+
+    {
+        nomor: 55,
+        nama: "Saldy Saputra",
+        jabatan: "Staff",
+        foto: "img/guru/guru-55.png"
+    }
+
+];
+
+        const guruGrid =
+            document.getElementById("guruGrid");
+
+        const pagination =
+            document.getElementById("pagination");
+
+
+
+        const jumlahPerHalaman = 12;
+
+        const jumlahHalaman =
+            Math.ceil(
+                guruData.length / jumlahPerHalaman
+            );
+
+
+
+        let halamanAktif = 1;
+
+
+
+        function tampilkanGuru(halaman) {
+
+            halamanAktif = halaman;
+
+            guruGrid.innerHTML = "";
+
+            const mulai =
+                (halaman - 1) * jumlahPerHalaman;
+
+            const selesai =
+                mulai + jumlahPerHalaman;
+
+            const dataHalaman =
+                guruData.slice(mulai, selesai);
+
+
+
+            dataHalaman.forEach(function (guru) {
+
+                const kartu =
+                    document.createElement("div");
+
+                kartu.className =
+                    "guru-card";
+
+
+
+                kartu.innerHTML = `
+
+                    <div class="guru-photo-wrapper">
+
+                        <img
+                            src="${guru.foto}"
+                            alt="${guru.nama}"
+                            class="guru-photo"
+                        >
+
+                    </div>
+
+
+                    <div class="guru-info">
+
+                        <h3 class="guru-name">
+                            ${guru.nama}
+                        </h3>
+
+
+                        <p class="guru-jabatan">
+                            ${guru.jabatan}
+                        </p>
+
+                    </div>
+
+                `;
+
+
+
+                guruGrid.appendChild(kartu);
+
+            });
+
+
+
+            tampilkanPagination();
+
+        }
+
+
+
+        function tampilkanPagination() {
+
+            pagination.innerHTML = "";
+
+
+
+            const tombolSebelumnya =
+                document.createElement("button");
+
+            tombolSebelumnya.innerHTML =
+                '<i class="fa-solid fa-chevron-left"></i>';
+
+            tombolSebelumnya.className =
+                "pagination-button";
+
+            tombolSebelumnya.disabled =
+                halamanAktif === 1;
+
+
+
+            tombolSebelumnya.addEventListener(
+                "click",
+                function () {
+
+                    if (halamanAktif > 1) {
+
+                        tampilkanGuru(
+                            halamanAktif - 1
+                        );
+
+                    }
+
+                }
+            );
+
+
+
+            pagination.appendChild(
+                tombolSebelumnya
+            );
+
+
+
+            for (
+                let nomor = 1;
+                nomor <= jumlahHalaman;
+                nomor++
+            ) {
+
+                const tombol =
+                    document.createElement("button");
+
+                tombol.textContent = nomor;
+
+                tombol.className =
+                    "pagination-button";
+
+
+
+                if (nomor === halamanAktif) {
+
+                    tombol.classList.add(
+                        "active"
+                    );
+
+                }
+
+
+
+                tombol.addEventListener(
+                    "click",
+                    function () {
+
+                        tampilkanGuru(nomor);
+
+                    }
+                );
+
+
+
+                pagination.appendChild(tombol);
+
+            }
+
+
+
+            const tombolBerikutnya =
+                document.createElement("button");
+
+            tombolBerikutnya.innerHTML =
+                '<i class="fa-solid fa-chevron-right"></i>';
+
+            tombolBerikutnya.className =
+                "pagination-button";
+
+            tombolBerikutnya.disabled =
+                halamanAktif === jumlahHalaman;
+
+
+
+            tombolBerikutnya.addEventListener(
+                "click",
+                function () {
+
+                    if (
+                        halamanAktif <
+                        jumlahHalaman
+                    ) {
+
+                        tampilkanGuru(
+                            halamanAktif + 1
+                        );
+
+                    }
+
+                }
+            );
+
+
+
+            pagination.appendChild(
+                tombolBerikutnya
+            );
+
+        }
+
+
+
+        tampilkanGuru(1);
+
+    </script>
+
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
